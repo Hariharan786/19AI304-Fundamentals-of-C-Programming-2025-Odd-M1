@@ -26,7 +26,11 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+<img width="656" height="430" alt="image" src="https://github.com/user-attachments/assets/a7ecff96-9824-422c-9330-dbd27086c1e1" />
+
 # Output:
+<img width="1198" height="350" alt="image" src="https://github.com/user-attachments/assets/4944bf7e-e190-496f-9915-7de8877aa637" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +61,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+<img width="637" height="409" alt="image" src="https://github.com/user-attachments/assets/03d3f470-cc01-495e-942a-505cb0bfc2d1" />
+
 # Output:
+<img width="1347" height="474" alt="image" src="https://github.com/user-attachments/assets/315873bb-2a49-467f-8a2f-3a1328f6500e" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -81,9 +89,13 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
-# Output:
-# Result: 
+<img width="535" height="530" alt="image" src="https://github.com/user-attachments/assets/0f459f9c-758b-4598-84a4-9515cd775c28" />
 
+# Output:
+<img width="1347" height="480" alt="image" src="https://github.com/user-attachments/assets/a0ab1de4-c9f2-4fb1-8bb7-b1b3671857ef" />
+
+# Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
@@ -120,7 +132,30 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+int main(){
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    printf("Addition: %d\n", a + b);
+    printf("Subtraction: %d\n", a - b);
+    printf("Multiplication: %d\n", a * b);
+    printf("Division: %d\n", a / b);
+    printf("Remainder: %d\n", a % b);
+
+    printf("Bitwise AND: %d\n", a & b);
+    printf("Bitwise OR: %d\n", a | b);
+    printf("Bitwise XOR: %d\n", a ^ b);
+    printf("Left Shift (a << 1): %d\n", a << 1);
+    printf("Right Shift (a >> 1): %d\n", a >> 1);
+    printf("Bitwise NOT (~a): %d\n", ~a);
+
+    return 0;
+}
 # Output:
+<img width="1337" height="690" alt="image" src="https://github.com/user-attachments/assets/530cd053-7be2-41ba-a6c1-6a563f552b21" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +200,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+int main(){
+    char ch;
+    scanf("%c", &ch);
+
+    (ch >= '0' && ch <= '9') ?
+        printf("Digit") :
+    ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
+        ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') ?
+            printf("Vowel") :
+            printf("Consonant")) :
+        printf("Special Symbol");
+
+    return 0;
+}
 # Output:
+<img width="1037" height="465" alt="image" src="https://github.com/user-attachments/assets/d4c35877-f1d0-4f10-b72b-aef3d40812ec" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
